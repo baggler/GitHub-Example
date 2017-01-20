@@ -5,17 +5,20 @@ using namespace std;
 int main()
 {
     // Variable declarations
-    string name, color;
+	string strFirsrName, strColor, strAdjective;
 
     // Output and input
-    cout << "Hello, what is your name? ";
-    cin >> name;
+    cout << "HELLO, WHAT IS YOUR NAME? ";
+    cin >> strFirsrName;
 
-    cout << "What is your favorite color? ";
+    cout << "WHAT IS YOUR FAVORITE COLOR? ";
     cin >> color;
 
+	cout << "ENTER AN ADJECTIVE: ";
+	cin >> strAdjective;
+
     cout << endl;
-    cout << "So can I call you " << color << " " << name << "?" << endl;
+    cout << "SO CAN I CALL YOU " << strAdjective << " "<< color << " " << strFirsrName << "?" << endl;
 
     return 0;
 }
